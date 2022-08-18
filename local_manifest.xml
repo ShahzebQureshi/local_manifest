@@ -7,7 +7,7 @@
  <remote name="Slowhy" 
          fetch="https://github.com/Slowhy" />
  
- <project name="android_device_lge_joan" path="device/lge/joan" remote="ShahzebQureshi" revision="fluid-12"/>
+ <project name="android_device_lge_joan" path="device/lge/joan" remote="ShahzebQureshi" revision="Fluid-12.1"/>
  <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="lifehackerhansol-android" revision="lineage-19.1"/>
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="lifehackerhansol-android" revision="lineage-19.1"/>
  <project name="android_device_lge_common" path="device/lge/common" remote="lifehackerhansol-android" revision="lineage-19.1"/>
