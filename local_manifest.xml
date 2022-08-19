@@ -4,12 +4,12 @@
          fetch="https://github.com/ShahzebQureshi" />
  <remote name="lifehackerhansol-android"
          fetch="https://github.com/lifehackerhansol-android" />
- <remote name="Slowhy" 
-         fetch="https://github.com/Slowhy" />
+ <remote name="SGCMarkus" 
+         fetch="https://github.com/SGCMarkus" />
  
  <project name="android_device_lge_joan" path="device/lge/joan" remote="ShahzebQureshi" revision="Fluid-12.1"/>
  <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="lifehackerhansol-android" revision="lineage-19.1"/>
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="lifehackerhansol-android" revision="lineage-19.1"/>
  <project name="android_device_lge_common" path="device/lge/common" remote="lifehackerhansol-android" revision="lineage-19.1"/>
- <project name="android_hardware_lge" path="hardware/lge" remote="Slowhy" revision="twelve"/>
+ <project name="android_hardware_lge" path="hardware/lge" remote="SGCMarkus" revision="lineage-19.1"/>
 	
