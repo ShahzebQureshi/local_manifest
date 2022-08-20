@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest> 
- <remote name="ShahzebQureshi" 
-         fetch="https://github.com/ShahzebQureshi" />
- <remote name="lifehackerhansol-android"
-         fetch="https://github.com/lifehackerhansol-android" />
- <remote name="SGCMarkus" 
-         fetch="https://github.com/SGCMarkus" />
- 
- <project name="android_device_lge_joan" path="device/lge/joan" remote="ShahzebQureshi" revision="Fluid-12.1"/>
- <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="lifehackerhansol-android" revision="lineage-19.1"/>
- <project name="proprietary_vendor_lge" path="vendor/lge" remote="lifehackerhansol-android" revision="lineage-19.1"/>
- <project name="android_device_lge_common" path="device/lge/common" remote="lifehackerhansol-android" revision="lineage-19.1"/>
- <project name="android_hardware_lge" path="hardware/lge" remote="SGCMarkus" revision="lineage-19.1"/>
+
 <manifest>
+
+<!-- fetching sources -->      
+
+        <remote name="ShahzebQureshi"
+                fetch="https://github.com/ShahzebQureshi" />
+ 
+        <remote name="lifehackerhansol-android"
+                fetch="https://github.com/lifehackerhansol-android" />
+
+        <remote name="SGCMarkus"
+                fetch="https://github.com/SGCMarkus" />
+                
+<!-- device trees -->
+
+        <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="Fluid-12.1" />
+        <project path="vendor/lge" name="proprietary_vendor_lge" remote="lifehackerhansol-android" revision="lineage-19.1" />
+        <project path="device/lge/common" name="android_device_lge_common" remote="lifehackerhansol-android" revision="lineage-19.1" />
+        <project path="hardware/lge" name="android_hardware_lge" remote="SGCMarkus" revision="lineage-19.1" />
+        <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="lifehackerhansol-android" revision="lineage-19.1" clone-depth="1" />
+</manifest>
