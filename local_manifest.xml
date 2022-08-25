@@ -12,6 +12,9 @@
 
         <remote name="SGCMarkus"
                 fetch="https://github.com/SGCMarkus" />
+
+        <remote name="sarthakroy2002"
+                fetch="https://github.com/sarthakroy2002" />
                 
 <!-- device trees -->
 
@@ -19,5 +22,6 @@
         <project path="vendor/lge" name="proprietary_vendor_lge" remote="lifehackerhansol-android" revision="lineage-19.1" />
         <project path="device/lge/common" name="android_device_lge_common" remote="lifehackerhansol-android" revision="lineage-19.1" />
         <project path="hardware/lge" name="android_hardware_lge" remote="SGCMarkus" revision="lineage-19.1" />
+        <project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />
         <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="lifehackerhansol-android" revision="lineage-19.1" clone-depth="1" />
 </manifest>
