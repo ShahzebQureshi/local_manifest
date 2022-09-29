@@ -15,7 +15,7 @@
                 
 <!-- device trees -->
 
-        <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="kscope" />
+        <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="fuse" />
         <project path="vendor/lge" name="proprietary_vendor_lge" remote="lifehackerhansol-android" revision="lineage-19.1" />
         <project path="device/lge/common" name="android_device_lge_common" remote="lifehackerhansol-android" revision="lineage-19.1" />
         <project path="hardware/lge" name="android_hardware_lge" remote="SGCMarkus" revision="lineage-19.1" />
