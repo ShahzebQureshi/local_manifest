@@ -7,7 +7,7 @@
         <remote name="ShahzebQureshi"
                 fetch="https://github.com/ShahzebQureshi" />
  
-        <remote name="Lineageos"
+        <remote name="LineageOS"
                 fetch="https://github.com/LineageOS" />
                 
 <!-- device trees -->
