@@ -7,17 +7,13 @@
         <remote name="ShahzebQureshi"
                 fetch="https://github.com/ShahzebQureshi" />
  
-        <remote name="lifehackerhansol-android"
-                fetch="https://github.com/lifehackerhansol-android" />
-
-        <remote name="SGCMarkus"
-                fetch="https://github.com/SGCMarkus" />
+        <remote name="Lineageos"
+                fetch="https://github.com/LineageOS" />
                 
 <!-- device trees -->
 
-        <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="fuse" />
-        <project path="vendor/lge" name="proprietary_vendor_lge" remote="lifehackerhansol-android" revision="lineage-19.1" />
-        <project path="device/lge/common" name="android_device_lge_common" remote="lifehackerhansol-android" revision="lineage-19.1" />
-        <project path="hardware/lge" name="android_hardware_lge" remote="SGCMarkus" revision="lineage-19.1" />
-        <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="lifehackerhansol-android" revision="lineage-19.1" clone-depth="1" />
+        <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="bliss" />
+        <project path="device/lge/joan/common" name="android_device_lge_joan_common" remote="LineageOS" revision="lineage-20" />
+        <project path="hardware/lge" name="android_hardware_lge" remote="LineageOS" revision="lineage-20" />
+        <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="LineageOS" revision="lineage-20" clone-depth="1" />
 </manifest>
