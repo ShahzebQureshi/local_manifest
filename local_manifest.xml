@@ -5,15 +5,17 @@
      <!-- Remote -->
      <remote name="ShahzebQureshi"
      fetch="https://github.com/ShahzebQureshi" />
-     <remote name="cl"
-     fetch="https://gitlab.com/Amritorock" /> 
      <remote name="LineageOS"
      fetch="https://github.com/LineageOS" />
      <remote name="lifehackerhansol-android"
      fetch="https://github.com/lifehackerhansol-android" />
+     <remote name="kdrag0n" 
+     fetch="https://github.com/kdrag0n"/>
+     <remote name="ImSurajxD"
+     fetch="https://gitlab.com/ImSurajxD" />
 
             <!-- Trees -->
-            <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="bliss" />
+            <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="arrow" />
             <project path="vendor/lge/joan" name="android_vendor_lge_joan" remote="lifehackerhansol-android" revision="lineage-20" />
             <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="LineageOS" revision="lineage-20" />
             <project path="device/lge/joan-common" name="android_device_lge_joan-common" remote="LineageOS" revision="lineage-20" />
@@ -22,8 +24,10 @@
             <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-20" />
             <project path="lineage-sdk" name="android_lineage-sdk" remote="LineageOS" revision="lineage-20.0" />
 
-            <!-- Clang -->
-            <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
- 
+            <!--Clang--> 
+            <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+           
+            <!--Toolchain-->
+            <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
 </manifest>
