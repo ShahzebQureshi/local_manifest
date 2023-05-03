@@ -23,6 +23,9 @@
             <project path="vendor/lge/joan-common" name="android_vendor_lge_joan-common" remote="lifehackerhansol-android" revision="lineage-20" />
             <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-20" />
 
+            <!-- Lineage-Sdk -->
+            <project path="lineage-sdk" name="android_lineage-sdk" remote="LineageOS" revision="lineage-20.0" />
+
             <!--Clang--> 
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
            
