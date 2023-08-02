@@ -15,7 +15,7 @@
      fetch="https://gitlab.com/ImSurajxD" />
 
             <!-- Trees -->
-            <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="lineage-20" />
+            <project path="device/lge/joan" name="android_device_lge_joan" remote="ShahzebQureshi" revision="cherish" />
             <project path="vendor/lge/joan" name="android_vendor_lge_joan" remote="jhs079-android" revision="lineage-20" />
             <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="LineageOS" revision="lineage-20" />
             <project path="device/lge/joan-common" name="android_device_lge_joan-common" remote="ShahzebQureshi" revision="cherish" />
