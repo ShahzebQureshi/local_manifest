@@ -1,8 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
- <project name="ShahzebQureshi/device_lge_joan" path="device/lge/joan" remote="github" revision="CherishOS" />
- <project name="ShahzebQureshi/android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="github" revision="pe-11" />
- <project name="ShahzebQureshi/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="pe-11" />
- <project name="ShahzebQureshi/android_device_lge_common" path="device/lge/common" remote="github" revision="eleven"/>
- <project name="ShahzebQureshi/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-18.1"/>
+  <remote name="ShahzebQureshi" fetch="https://github.com/ShahzebQureshi/" revision="sixteen-infinity" />
+  <remote name="yaap" fetch="https://github.com/yaap/" revision="sixteen" />
+
+  <!-- Device Trees -->
+  <project path="device/oneplus/guacamole"
+           name="device_oneplus_guacamole"
+           remote="ShahzebQureshi" />
+
+  <project path="device/oneplus/sm8150-common"
+           name="device_oneplus_sm8150-common"
+           remote="yaap" />
+
+  <!-- Kernel -->
+  <project path="kernel/oneplus/sm8150"
+           name="kernel_oneplus_sm8150"
+           remote="yaap" />
+
+  <!-- Vendor -->
+  <project path="vendor/oneplus/guacamole"
+           name="vendor_oneplus_guacamole"
+           remote="yaap" />
+
+  <project path="vendor/oneplus/sm8150-common"
+           name="vendor_oneplus_sm8150-common"
+           remote="yaap" />
+
+  <!-- Hardware -->
+  <project path="hardware/oneplus"
+           name="hardware_oneplus"
+           remote="yaap" />
+
 </manifest>
